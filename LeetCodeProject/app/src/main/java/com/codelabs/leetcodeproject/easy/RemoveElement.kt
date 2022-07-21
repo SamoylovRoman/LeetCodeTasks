@@ -1,4 +1,4 @@
-package com.codelabs.leetcodeproject
+package com.codelabs.leetcodeproject.easy
 
 class RemoveElement {
     fun removeElement(nums: IntArray, v: Int): Int {

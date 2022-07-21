@@ -1,4 +1,4 @@
-package com.codelabs.leetcodeproject
+package com.codelabs.leetcodeproject.easy
 
 class RunningSumOf1dArray {
     fun runningSum(nums: IntArray): IntArray {

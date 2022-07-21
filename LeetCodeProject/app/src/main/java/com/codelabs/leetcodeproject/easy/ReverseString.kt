@@ -1,4 +1,4 @@
-package com.codelabs.leetcodeproject
+package com.codelabs.leetcodeproject.easy
 
 class ReverseString {
     fun reverseString2(s: CharArray): Unit {

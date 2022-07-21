@@ -1,4 +1,4 @@
-package com.codelabs.leetcodeproject
+package com.codelabs.leetcodeproject.easy
 
 class ValidParentheses {
     fun isValid(s: String): Boolean {

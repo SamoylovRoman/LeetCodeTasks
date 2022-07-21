@@ -1,4 +1,4 @@
-package com.codelabs.leetcodeproject
+package com.codelabs.leetcodeproject.easy
 
 class LengthOfLastWord {
     fun lengthOfLastWord(s: String): Int {

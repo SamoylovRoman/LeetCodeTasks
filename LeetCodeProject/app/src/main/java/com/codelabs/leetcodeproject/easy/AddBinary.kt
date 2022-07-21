@@ -1,6 +1,4 @@
-package com.codelabs.leetcodeproject
-
-import kotlin.math.max
+package com.codelabs.leetcodeproject.easy
 
 class AddBinary {
     fun addBinary(a: String, b: String): String {

@@ -1,4 +1,4 @@
-package com.codelabs.leetcodeproject
+package com.codelabs.leetcodeproject.easy
 
 class SearchInsertPosition {
     fun searchInsert(nums: IntArray, target: Int): Int {

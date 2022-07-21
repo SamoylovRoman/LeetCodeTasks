@@ -1,7 +1,6 @@
-package com.codelabs.leetcodeproject
+package com.codelabs.leetcodeproject.easy
 
 import java.util.*
-import kotlin.math.min
 
 class ListNode(var `val`: Int) {
     var next: ListNode? = null

@@ -1,4 +1,4 @@
-package com.codelabs.leetcodeproject
+package com.codelabs.leetcodeproject.easy
 
 class ConcatenationOfArray {
     fun getConcatenation(nums: IntArray): IntArray {

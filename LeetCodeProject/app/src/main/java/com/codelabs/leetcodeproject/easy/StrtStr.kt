@@ -1,4 +1,4 @@
-package com.codelabs.leetcodeproject
+package com.codelabs.leetcodeproject.easy
 
 class StrtStr {
     fun strStr(haystack: String, needle: String): Int {

@@ -1,4 +1,4 @@
-package com.codelabs.leetcodeproject
+package com.codelabs.leetcodeproject.easy
 
 class DefangingAnIPAddress {
     fun defangIPaddr(address: String): String {
