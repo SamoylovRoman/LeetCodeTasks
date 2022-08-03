@@ -12,6 +12,17 @@ class DestinationCity {
         }
         return clCity
     }
+
+    fun destCity2(paths: List<List<String>>): String {
+        val startCities = paths.map { it[0] }
+        return paths.map { it[1] }.filter { it !in startCities }[0]
+    }
+
+    fun destCity3(paths: List<List<String>>): String {
+        val startCities = paths.map { it[0] }
+        val finishCities = paths.map { it[1] }
+        return (finishCities - startCities)[0]
+    }
 }
 
 fun main() {
