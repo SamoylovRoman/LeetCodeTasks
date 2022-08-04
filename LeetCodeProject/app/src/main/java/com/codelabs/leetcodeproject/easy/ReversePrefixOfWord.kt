@@ -8,11 +8,10 @@ class ReversePrefixOfWord {
         }
         if (index == -1) {
             return word
-        } else {
-            str += word.substring(0, index + 1).reversed()
-            if (index != word.length) {
-                str += word.substring(index + 1, word.length)
-            }
+        }
+        str += word.substring(0, index + 1).reversed()
+        if (index != word.length) {
+            str += word.substring(index + 1, word.length)
         }
         return str
     }
