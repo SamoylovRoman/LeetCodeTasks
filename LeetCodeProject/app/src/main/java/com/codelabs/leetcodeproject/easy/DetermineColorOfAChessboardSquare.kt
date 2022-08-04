@@ -1,9 +1,8 @@
 package com.codelabs.leetcodeproject.easy
 
 class DetermineColorOfAChessboardSquare {
-    fun squareIsWhite(coordinates: String): Boolean {
-        return (coordinates[0].toInt() + coordinates[1].toInt()) % 2 != 0
-    }
+    fun squareIsWhite(coordinates: String) =
+        (coordinates[0].toInt() + coordinates[1].toInt()) % 2 != 0
 }
 
 fun main() {
