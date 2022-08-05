@@ -1,7 +1,7 @@
 package com.codelabs.leetcodeproject.easy
 
 class FindTargetIndicesAfterSortingArray {
-    fun targetIndices(nums: IntArray, target: Int): List<Int> {
+    fun targetIndices2(nums: IntArray, target: Int): List<Int> {
         val list = mutableListOf<Int>()
         nums.sorted().forEachIndexed { index, i ->
             if (i == target) {
@@ -9,6 +9,12 @@ class FindTargetIndicesAfterSortingArray {
             }
         }
         return list
+    }
+
+    fun targetIndices(nums: IntArray, target: Int): List<Int> {
+        return nums.sorted().withIndex()
+            .filter { it.value == target }
+            .map { it.index }
     }
 }
 
