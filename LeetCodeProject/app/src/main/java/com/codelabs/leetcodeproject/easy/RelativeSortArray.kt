@@ -6,7 +6,7 @@ class RelativeSortArray {
         arr2.forEach { value ->
             for (i in 0 until arr1.count { it == value }) list += value
         }
-        list += (arr1.toList() - arr2.toList().toSet()).sorted()
+        list += (arr1.toList() - arr2.toSet()).sorted()
         return list.toIntArray()
     }
 }
